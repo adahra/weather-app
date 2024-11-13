@@ -114,7 +114,7 @@ class WeatherWidget extends StatelessWidget {
                 builder: (context, value, child) {
                   return Text(
                     value,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 56,
                     ),
                   );
